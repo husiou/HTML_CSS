@@ -101,6 +101,10 @@
         background-color:rgb(112, 171, 211);
         border-width: 3px;
     }
+    .amazon-link:hover {
+        color:orange;
+    }
+
     .shoe-name {
         font-size: 20px;
         font-weight: bold;
@@ -119,6 +123,13 @@
         height: 36px;
         cursor: pointer;
     }
+
+    .add:hover {
+        background-color: rgb(255, 174, 53);
+    }
+    .add:active {
+        opacity: 0.7;
+    }
     .buy {
         background-color: orange;
         border-radius: 10px;
@@ -126,6 +137,14 @@
         width: 100px;
         height: 36px;
         cursor: pointer;
+    }
+
+    .buy:hover {
+        background-color:rgb(235, 153, 2);
+    }
+
+    .buy:active {
+        opacity: 0.7;
     }
     </style>
 </head>
@@ -152,7 +171,7 @@
     <button class="linkedin-save">
         Save
     </button>
-    <a href="https://amazon.com">
+    <a class="amazon-link" href="https://amazon.com">
         <br>Back to Amazon
     </a>
     <p class="shoe-name">
